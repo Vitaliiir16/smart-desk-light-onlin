@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark-theme">
-
     <div class="app-container">
         <aside class="sidebar">
             <div class="sidebar-header">
@@ -19,21 +18,18 @@
                 <a href="#list-section" class="nav-link">Конфігурації</a>
             </nav>
             <div class="theme-switcher">
-                <button id="themeToggleBtn">Змінити Тему</button>
+                <button id="themeToggleBtn" class="btn">Тема</button>
             </div>
         </aside>
-
         <main class="content-area">
             <section id="form-section" class="content-section form-card">
-                <h2 class="section-title">Нова Конфігурація</h2>
+                <h2 class="section-title">Нова/Редагувати Конфігурацію</h2>
                 <form id="configForm">
                     <input type="hidden" id="configId">
-                    
                     <div class="form-group">
                         <label for="configName">Назва:</label>
                         <input type="text" id="configName" required placeholder="Наприклад, 'Ранкова Кава'">
                     </div>
-                    
                     <div class="form-group">
                         <label for="userModeSelect">Базовий Режим:</label>
                         <select id="userModeSelect">
@@ -43,14 +39,12 @@
                             <option value="user_twinkle">Мерехтіння</option>
                         </select>
                     </div>
-
                     <div id="userColorsSection" class="form-group">
                         <label id="userColorsLabel">Колір(и):</label>
                         <div id="userColorInputsContainer" class="color-inputs-grid">
-                            </div>
+                        </div>
                         <button type="button" id="addUserColorBtn" class="btn btn-outline btn-small" style="display:none; margin-top:10px;">+ Додати колір</button>
                     </div>
-                    
                     <div class="form-row">
                         <div class="form-group">
                             <label for="brightness">Яскравість: <span id="brightnessVal">150</span></label>
@@ -61,26 +55,18 @@
                             <input type="range" id="speed" min="0" max="255" value="100">
                         </div>
                     </div>
-                    
                     <div class="form-actions">
                         <button type="submit" class="btn btn-primary">Зберегти</button>
                         <button type="button" id="clearFormBtn" class="btn btn-secondary">Очистити</button>
                     </div>
                 </form>
             </section>
-
             <section id="list-section" class="content-section list-card">
                 <h2 class="section-title">Збережені Конфігурації</h2>
-                <div class="list-controls">
-                    <input type="text" id="searchInput" placeholder="Пошук конфігурацій...">
-                </div>
-                <ul id="configurationsList">
-                    <li class="loading-placeholder">Завантаження...</li>
-                </ul>
+                <ul id="configurationsList"><li class="loading-placeholder">Завантаження...</li></ul>
             </section>
         </main>
     </div>
-
     <script src="lib/iro.min.js"></script> 
     <script src="script.js"></script>
 </body>
