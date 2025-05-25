@@ -1,0 +1,251 @@
+[
+    {
+      "id": "preset_static_warm_white",
+      "name": "Тепле Біле Світло",
+      "mode": "user_static",
+      "colors": [
+        {
+          "r": 255,
+          "g": 165,
+          "b": 70
+        }
+      ],
+      "brightness": 200,
+      "speed": 0,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_static_cool_white",
+      "name": "Холодне Біле Світло",
+      "mode": "user_static",
+      "colors": [
+        {
+          "r": 200,
+          "g": 200,
+          "b": 255
+        }
+      ],
+      "brightness": 200,
+      "speed": 0,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_breath_ocean",
+      "name": "Океанське Дихання",
+      "mode": "user_breath",
+      "colors": [
+        {
+          "r": 70,
+          "g": 130,
+          "b": 180
+        }
+      ],
+      "brightness": 180,
+      "speed": 80,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_gradient_sunset",
+      "name": "Захід Сонця (Градієнт)",
+      "mode": "user_gradient",
+      "colors": [
+        {
+          "r": 255,
+          "g": 100,
+          "b": 0
+        },
+        {
+          "r": 255,
+          "g": 0,
+          "b": 100
+        },
+        {
+          "r": 130,
+          "g": 0,
+          "b": 180
+        }
+      ],
+      "brightness": 220,
+      "speed": 30,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_twinkle_gold",
+      "name": "Золоте Мерехтіння",
+      "mode": "user_twinkle",
+      "colors": [
+        {
+          "r": 255,
+          "g": 215,
+          "b": 0
+        }
+      ],
+      "brightness": 160,
+      "speed": 100,
+      "params": {
+        "bg_dim": 30
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_fire_classic",
+      "name": "Класичний Вогонь",
+      "mode": "effect_fire",
+      "colors": [],
+      "brightness": 255,
+      "speed": 150,
+      "params": {
+        "cooling": 55,
+        "sparking": 120
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_rainbow_fast",
+      "name": "Швидка Веселка",
+      "mode": "effect_rainbow_cycle",
+      "colors": [],
+      "brightness": 255,
+      "speed": 200,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_police_action",
+      "name": "Поліцейські Сигнали",
+      "mode": "effect_police",
+      "colors": [],
+      "brightness": 255,
+      "speed": 180,
+      "params": {},
+      "is_deletable": false,
+      "isActive": true
+    },
+    {
+      "id": "preset_forest_calm",
+      "name": "Спокій Лісу",
+      "mode": "effect_palette_cycle",
+      "colors": [],
+      "brightness": 170,
+      "speed": 60,
+      "params": {
+        "palette_id": 1
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_party_time",
+      "name": "Час для Вечірки!",
+      "mode": "effect_palette_cycle",
+      "colors": [],
+      "brightness": 240,
+      "speed": 180,
+      "params": {
+        "palette_id": 2,
+        "blend_type": 1
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_meteor_blue",
+      "name": "Синій Метеор",
+      "mode": "effect_meteor",
+      "colors": [
+        {
+          "r": 0,
+          "g": 100,
+          "b": 255
+        }
+      ],
+      "brightness": 200,
+      "speed": 100,
+      "params": {
+        "decay": 64,
+        "size": 7
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_segments_rgb_chase",
+      "name": "RGB Біг по Сегментах",
+      "mode": "effect_segments_chase",
+      "colors": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 0
+        },
+        {
+          "r": 0,
+          "g": 255,
+          "b": 0
+        },
+        {
+          "r": 0,
+          "g": 0,
+          "b": 255
+        }
+      ],
+      "brightness": 200,
+      "speed": 150,
+      "params": {
+        "segments": 3,
+        "direction": "forward"
+      },
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_fade_smooth_rgb",
+      "name": "Плавне RGB Переливання",
+      "mode": "effect_fade_rgb",
+      "colors": [],
+      "brightness": 190,
+      "speed": 70,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_matrix_green",
+      "name": "Зелена Матриця",
+      "mode": "effect_matrix",
+      "colors": [
+        {
+          "r": 0,
+          "g": 255,
+          "b": 70
+        }
+      ],
+      "brightness": 180,
+      "speed": 100,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    },
+    {
+      "id": "preset_confetti_random",
+      "name": "Випадкове Конфетті",
+      "mode": "effect_confetti",
+      "colors": [],
+      "brightness": 255,
+      "speed": 120,
+      "params": {},
+      "is_deletable": false,
+      "isActive": false
+    }
+  ]
